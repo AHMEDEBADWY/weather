@@ -1,0 +1,163 @@
+main{
+    background-color: #1E202B;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* ============================ */
+/* ============================ */
+/* navigation bar is edit css */
+.navbar{
+    height: 7rem;
+}
+.nav-link{
+    padding: 0%;
+    color: aliceblue;
+    transition: all 0.5s;
+    border: 2px #1E202B solid;  
+} 
+ a.actived {
+
+    color: rgb(0, 0, 255);
+    border: 2px blue solid;
+}
+.nav-link:hover{
+    color: blue;
+    border: 2px blue solid;  
+}
+
+/* navigation bar a logo */
+.Weather{
+    font-size: 0.90rem;
+    font-weight: 900;
+}
+.tagline{
+    font-size: 0.70rem;
+    
+}
+
+
+
+.image-width{
+    width:auto;
+}
+
+/* ========================= */
+  /* ===================== */
+  /* the form control and bottom is edit  */
+.searchCountry{
+    background-image: url("../image/banner.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.button-search{
+    color: aliceblue;
+    background-color: blue;
+    width: 7rem;
+    padding:10px;
+    border-radius:20px  ;
+    border: none;
+}
+.form-control{
+    background-color: #1E202B;
+    color: aliceblue;
+
+
+}
+.form-control::placeholder{
+    color: #8E8F94;
+    font-size: 0.75rem;
+}
+.form-control:focus{
+    background-color: #1E202B;
+    outline: none;
+    box-shadow: none;
+    color: aliceblue;
+}
+.button{
+    background-color: #1E202B;
+}
+/* ====================== */
+/* ====================== */
+/* section one a card  */
+
+.section-one{
+    background-color: #323544;
+}
+.round{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+ }
+.Sunday{
+    background-color: #2D303D;
+    
+}
+.redis{
+    border-top-left-radius: 20px;
+}
+.Temperature{
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+}
+.Sunny{
+    color: blue;
+    font-size: 0.75rem;
+}
+/* ====================== */
+/* section tow a card */
+
+.section-tow{
+    background-color: #262936;
+}
+.Sunday-center{
+    background-color: #222531;
+
+}
+.font-color{
+  color: #8E8F94;  
+} 
+
+
+
+.redis-end{
+    border-top-right-radius: 20px;
+
+}
+.round-end{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*  */
+
+.color-footer{
+    background-color: #262936;
+}
+.icons-foot{
+    font-size: 0.90rem;
+    color: #009AD8;
+    background-color: #1E202B;
+    padding: 0.90rem;
+    border-radius: 50%;
+    transition: all 350ms;
+}
+.icons-foot:hover{
+    color: aliceblue;
+    background-color: #009AD8;
+}
+.width-input{
+    width: 60%;
+}
+.bottom-color{
+    background-color:#009AD8;
+}
+.paragraph-footer{
+    color: #8E8F94;
+    font-size: 0.75rem;
+    padding: 20px;
+}
